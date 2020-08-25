@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Photos/Mainbackground.jpeg);
+	height:215vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: red;
+	color: #000;
+}
+ul li.active a{
+	background-color: red;
+	color: #000;
+
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: red;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid red;
+	padding: 10px 30px;
+	color: red;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: red;
+	color: #000;
+}
+.icon{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	border: 5px solid red;
+	transform: translate(-50%,-50%);
+}
+.title1{
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.icon1{
+	position: absolute;
+	top: 140%;
+	left: 50%;
+	border: 5px solid red;
+	transform: translate(-50%,-50%);
+}
+.title2{
+	position: absolute;
+	top: 170%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.icon2{
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	border: 5px solid red;
+	transform: translate(-50%,-50%);
+}
